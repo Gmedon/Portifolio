@@ -74,3 +74,9 @@ function projetos() {
 function contatos() {
     document.querySelector("footer").scrollIntoView(-100, { behavior: 'smooth' })
 }
+
+let urlcv = "https://drive.google.com/file/d/14_4_FIXbxw1orCsqKujPJS6-U3jzJEty/view?usp=share_link"
+function dowloadcv() {
+    let win = window.open(urlcv, '_blank')
+    win.focus()
+}
