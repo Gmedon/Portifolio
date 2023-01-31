@@ -31,6 +31,23 @@ function reveal() {
 }
 window.addEventListener("scroll", reveal)
 
+function reveal2() {
+    var reveals = document.querySelectorAll('.reveal2');
+
+    reveals.forEach((reveal2) => {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveal2.getBoundingClientRect().top;
+        var elementVisible = 100;
+
+        if (elementTop < windowHeight - elementVisible) {
+            reveal.classList.add('active');
+        } else {
+            reveal.classList.remove("active");
+        }
+    });
+}
+window.addEventListener("scroll", reveal2)
+
 let docTitle = document.title;
 window.addEventListener("blur", () => {
     document.title = "Volte aqui :( "
@@ -60,7 +77,7 @@ function entrarcifra() {
     win.focus()
 }
 function sobre() {
-    window.scrollTo(0, 0)
+    document.querySelector(".sobre-enviar").scrollIntoView({ behavior: 'smooth' })
 }
 
 function skills() {

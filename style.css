@@ -327,6 +327,40 @@ body {
     width: 550px;
 }
 
+.container-sobre2 {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    padding: 60px;
+}
+
+.texto-title-sobre {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 40px;
+}
+
+.sobre-enviar {
+    width: 100%;
+}
+
+.foto-info {
+    width: 40px;
+}
+
+.texto-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 23px;
+    text-shadow: 2px 2px 5px black;
+}
+
 /*FIM SOBRE*/
 
 .container-skills {
@@ -477,6 +511,7 @@ footer .container {
 
 footer .tipo__1 {
     margin-bottom: 50px;
+    width: 100%;
 }
 
 .btn_social {
@@ -490,7 +525,8 @@ footer .tipo__1 {
     width: auto;
     margin: auto;
     float: left;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .btn_social ul li {
