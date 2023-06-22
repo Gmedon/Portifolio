@@ -292,7 +292,7 @@ function entrarcalc() {
 }
 
 function entrarquem() {
-	window.location.assign("https://jogo-quem-sou-eu.vercel.app/")
+	window.location.assign("https://projeto-emunah2-0.vercel.app/")
 }
 
 function entrarcifra() {
